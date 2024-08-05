@@ -2,8 +2,6 @@ import pytest
 
 from painter.model import Circle, Point, Rectangle, Triangle
 
-
-
 @pytest.fixture
 def point_1():
     return Point(3, 4)
